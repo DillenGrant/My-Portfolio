@@ -1,0 +1,85 @@
+:root {
+  --primary:#00c8ff;
+  --secondary:green;
+  --main-text:black;
+  --sub-text:white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+  }
+  
+  header {
+    background-color: var(--primary);
+    color: var(--main-text);
+    padding: 1rem;
+    border-width: 20px;
+    border-style: solid;
+    border-color: var(--secondary);
+    background-image: url("images/1093324.jpg")
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .list:hover{
+    transform: scale(1.1);
+  }
+  
+  nav a {
+    color: var(--sub-text);
+    text-decoration: none;
+  }
+  
+  p{
+    color: var(--sub-text);
+  }
+  /* Styling for the "About" section */
+  .profile {
+    text-align: center;
+    margin: 2rem;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 20px;
+    border-color: var(--secondary);
+    background-color: var(--primary);
+    background-image: url("images/1093324.jpg")
+  }
+  
+  .profile img {
+    width: 150px;
+    border-radius: 20%;
+    margin-top: 10px;
+    border-style: solid;
+  }
+  
+  /* Styling for the "Work" section */
+  .applications {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .application {
+    margin: 1rem;
+  }
+  
+  .application img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s;
+  }
+  
+  .application img:hover {
+    transform: scale(1.1);
+  }
