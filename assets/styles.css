@@ -75,6 +75,7 @@ body {
   }
   
   .application img {
+    content: icon;
     width: 200px;
     height: auto;
     transition: transform 0.2s;
