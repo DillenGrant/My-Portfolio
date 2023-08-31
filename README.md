@@ -1,7 +1,7 @@
 # My-Portfolio
 This is my portfolio website that i have created from scratch
 
-https://dillengrant.github.io/Refactoring-existing-code/ here is the live page
+https://dillengrant.github.io/My-Portfolio/ here is the live page
 
 ## Description
 
@@ -11,4 +11,4 @@ im trying to learn the basic fuctionality of HTML and CSS with this Project.
 
 ## Visuals
 
-![portfolio](assets\images\portfolio.JPG)
+![portfolio](/assets/images/portfolio.JPG)
