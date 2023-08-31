@@ -83,4 +83,11 @@ body {
     
   }
 
+  #firstapp{
+    display: flex;
+    justify-content: center;
+    align-content: top;
+    max-width: 500px;
+  }
+
   
