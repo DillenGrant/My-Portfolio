@@ -10,16 +10,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--primary);
+
   }
   
   header {
     background-color: var(--primary);
     color: var(--main-text);
-    padding: 1rem;
+    padding: 1%;
     border-width: 20px;
     border-style: solid;
     border-color: var(--secondary);
-    background-image: url("images/1093324.jpg")
+    background-image: url("../images/1093324.jpg");
   }
   
   nav ul {
@@ -32,10 +33,6 @@ body {
     margin-right: 20px;
   }
 
-  .list:hover{
-    transform: scale(1.1);
-  }
-  
   nav a {
     color: var(--sub-text);
     text-decoration: none;
@@ -47,13 +44,13 @@ body {
   /* Styling for the "About" section */
   .profile {
     text-align: center;
-    margin: 2rem;
+    margin: 2%;
     border-style: solid;
     border-radius: 50px;
     border-width: 20px;
     border-color: var(--secondary);
     background-color: var(--primary);
-    background-image: url("images/1093324.jpg")
+    background-image: url("../images/1093324.jpg");
   }
   
   .profile img {
@@ -66,21 +63,24 @@ body {
   /* Styling for the "Work" section */
   .applications {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   
   .application {
-    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    padding: 2%;
   }
+
+  .application img{
+    display:flow-root ;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
   
-  .application img {
-    content: icon;
-    width: 200px;
-    height: auto;
-    transition: transform 0.2s;
-  }
-  
-  .application img:hover {
-    transform: scale(1.1);
-  }
